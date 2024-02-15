@@ -1,0 +1,27 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    display: flex;
+    position: fixed;
+    background-color: beige;
+    width: 100%;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+#scheme-display {
+    padding: 100px 10px 0px;
+}
+
+#color-result,
+#hex-result {
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    grid-gap: 5px;
+    width: auto;
+    height: 70vh;
+    text-align: center;
+}
